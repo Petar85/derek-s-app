@@ -13,6 +13,7 @@ for (var i = 0; i<hourArr.length; i++) {
 
     var row = $("<div>");
     
+    
 
 
 
