@@ -10,16 +10,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="jumbotron">
+        <h1 class="display-3">Derek's app</h1>
+        <p class="lead" id="currentDay"></p>
+    </header>
 <div class="container-fluid">
     <div class="row" >
-        <div class="col-md-1"></div>
-        <div class="col-md-10" class="jumbotron">
-            <h1 class="display-3">Derek's app</h1>
-            <p class="lead" id="currentDay"></p>
+        <div class="col-lg-12">
             <table class="table table-light table-hover table-bordered">
                 <tr>
                     <th scope="row">Title</th>
-                    <td colspan="4"></td>
+                    <td colspan="4" contenteditable="true" id="tdTitle"></td>
                 </tr>
                 <tr>
                     <th scope="row">Date</th>
@@ -31,13 +32,15 @@
                     <th scope="col">Actual</th>
                     <th scope="col">Description</th>  
                 </tr>
-                <tr>   
+                <tr>
+                    <td class="time"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
                 </tr>
-                <tr contenteditable="true"></tr>
             </table>
         </div>
         </div>
-        <div class="col-md-1"></div>
     </div>
 </div>    
 <script src="script.js"></script>

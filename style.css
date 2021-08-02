@@ -6,12 +6,9 @@
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    
   }
   
-  .display-3 {
-      margin: 30px;
-      padding: 40px;
-  }
 
   /* .container-fluid {
       background-color: dimgray;
