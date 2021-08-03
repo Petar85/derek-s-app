@@ -13,11 +13,12 @@ var tbodyTr = $(".tbody")
 for (var i = 0; i<hourArr.length; i++) {
 
     var row = $("<tr>");
-    row.addClass("tbody");
+    row.addClass("col-lg-12");
+   
     
 
     var timeTd = $("<td>");
-    timeTd.addClass("time");
+    timeTd.addClass("");
     timeTd.text(hourArr[i]);
     row.append(timeTd);
 
