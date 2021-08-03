@@ -12,8 +12,9 @@ var tbodyTr = $(".tbody")
 
 for (var i = 0; i<hourArr.length; i++) {
 
-    var row = $("<div>");
-    row.addClass("container-fluid row col-lg-12 table table-light table-hover table-bordered");
+    var row = $("<tr>");
+    row.addClass("tbody");
+    
 
     var timeTd = $("<td>");
     timeTd.addClass("time");
@@ -21,7 +22,7 @@ for (var i = 0; i<hourArr.length; i++) {
     row.append(timeTd);
 
     var targetTd = $("<td>");
-    targetTd.addClass("contenteditable='true'")
+    targetTd.addClass("contenteditable='true'");
     row.append(targetTd);
 
     var actualTd = $("<td>");
